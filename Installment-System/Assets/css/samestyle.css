@@ -1,0 +1,112 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    outline: none;
+}
+body {
+    background-color: lightblue;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    background: white;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+
+}
+.container .header {
+    overflow: hidden;
+}
+.container .header .applicationname {
+    float: left;
+    font-size: 20px;
+    background: gray;
+    color:white;
+    padding: 10px;
+}
+.container .header .menu {
+    float: right;
+    padding: 10px;
+}
+.container .header .menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.container .header .menu a:hover {
+    background-color: gray;
+    color: white;
+}
+.container .dataforpost {
+    margin: 30px 0px 0px 0px;
+    box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.3);
+}
+.container .dataforpost table {
+    margin: auto;
+}
+.container .dataforpost table td {
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    font-size: 15px;     
+}
+.container .dataforpost input {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    transition: 200ms;
+}
+.container .dataforpost input:focus {
+    border: 2px solid gray;
+}
+.container .dataforpost button {
+    padding: 4px;
+    border: 1px solid gray;
+    background: white;
+    width: 50px;
+    cursor: pointer;
+}
+.container .dataforpost button:hover {
+    background-color: gray;
+    color: white;
+}
+#snackbar {
+    position: fixed;
+    bottom: 0px;
+    opacity: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: gray;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    transition: 500ms;
+    border-radius: 4px;
+}
+.showdata {
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+}
+.showdata table {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 30px;
+    border:none;
+    box-shadow: inset 0px 3px 6px rgba(0,0,0,0.3);
+}
+.showdata table td {
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}
+.showdata table th {
+    background: black;
+    color: white;
+}

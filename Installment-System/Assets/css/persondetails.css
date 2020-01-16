@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.showdata {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+}
+.showdata table {
+    border-color: rgba(0,0,0,0.3);
+    border-radius: 3px;
+    width: 100%;
+}
+.showdata table td {
+    padding: 5px;
+    text-align: center;
+    border-color: rgba(0,0,0,0.3);
+}
+.showdata table th {
+    background: black;
+    color: white;
+}
+.showdata table tr{
+    border-color: rgba(0,0,0,0.3);
+}
+.person {
+    width: 100%;
+    background: white;
+}
+.person table {
+    width: 100%;
+    background-color: white;
+}
+.person table td {
+    width: 20%;
+    padding: 10px;
+}
+.person table th {
+    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+}
+.person table td{
+    
+}
